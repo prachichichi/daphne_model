@@ -1,0 +1,44 @@
+{
+  "lang":"en",
+  "name":"ner",
+  "version":"0.0.0",
+  "spacy_version":">=3.0.6,<3.1.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"df3444421",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "ner":[
+      "ANOMALY",
+      "COMPONENT",
+      "MEASUREMENT",
+      "PROCEDURE",
+      "PROCEDURENUMBER",
+      "STEPNUMBER",
+      "anomaly",
+      "component",
+      "measurement",
+      "parameter_groups",
+      "procedure",
+      "procedureNumber",
+      "stepNumber"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}
